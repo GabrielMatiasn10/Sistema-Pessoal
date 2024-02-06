@@ -26,6 +26,8 @@ const App = () => {
     setExpense(expenseCount);
   }, [filteredList]);
 
+
+  
   const handleMonthChange = (newMonth: string) => {
     setCurrentMonth(newMonth);
   }
